@@ -1,5 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,400;0,500;0,600;0,700;0,900;1,300&family=Righteous&display=swap');
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+h1, .navbar-brand {
+  font-family: "Righteous", cursive;
+}
+
+footer {
+  background-color: #fdf1e3c0;
+}
+
+/* Carousel */
+
+.carousel-caption {
+  top: 0;
+  bottom: auto;
+}
+
+.caption-1 > * {
+  background-color: #a98a6b;
+}
+
+.caption-2 > * {
+  background-color: #b1bece;
+}
+
+.caption-3 > * {
+  background-color: #9cc5e4;
+  color: black;
+}
+
+.caption-4 > * {
+  background-color: #d9d9da;
+  color: black;
+}
+
+/* index.html */
+
+.circle {
+
+  width: auto;
+  padding-top: 100%;
+  position: relative;
+  border-radius: 50%;
+  background-color: #9cc5e4;
+}
+
+.circle-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* event.html */
+
+pre {
+  font-family: "Libre-Fraklin", sans-serif;
+}
+
+.directions {
+  line-height: 2;
+  font-weight: 500;
+}
+
 .jumbotron {
   background-image: url("images/L-festival-nuageux.jpg");
   background-size: cover;
   min-height: 30vh;
 }
+
+.lead {
+  font-weight: 400;
+}
+
+#address-block {
+  font-size: 1.2em;
+  font-weight: 500;
+  line-height: 1.5;
+}
+

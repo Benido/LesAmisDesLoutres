@@ -49,28 +49,28 @@
         <div class="carousel-inner">
           <div class="carousel-item active" style="height:50vh;">
             <img class="d-block w-100" src="images/XL-loutre-gros-plan.jpg" alt="Loutre en gros plan" style="height:50vh; object-fit: cover;">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block caption-1">
               <h3>Les loutres vous veulent du bien</h3>
               <p>Elles ne mettent pas en danger les populations de poisson et leur présence témoigne de la bonne santé de nos rivières.</p>
             </div>
           </div>
           <div class="carousel-item" style="height:50vh;">
             <img class="d-block w-100" src="images/M-loutre-mer-2.jpg" alt="Loutre de mer" style="height:50vh; object-fit: cover;">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block caption-2">
               <h3>Jamais loin de la côte</h3>
               <p>Bien qu'adaptée à l'eau salée, la loutre de mer à besoin d'eau douce pour boire et laver sa fourrure.</p>
             </div>
           </div>
           <div class="carousel-item" style="height:50vh;">
             <img class="d-block w-100" src="images/XL-loutre-groupe-mer.jpg" alt="Groupe de loutres de mer se tenant par la main" style="height:50vh; object-fit: cover;">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block caption-3">
               <h3>Donne moi ta main...</h3>
               <p>Pour ne pas dériver quand elles se reposent, les loutres se tiennent par la main et flottent ensemble.</p>
             </div>
           </div>
           <div class="carousel-item" style="height:50vh;">
             <img class="d-block w-100" src="images/XL-loutre-gravure1820.jpg" alt="Gravure de loutre de 1820" style="height:50vh; object-fit: cover;">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block caption-4">
               <h3>Voisines de longue date</h3>
               <p>La loutre a été décrite pour la première fois en 1838 par le zoologiste Charles-Lucien Bonaparte.</p>
             </div>
@@ -89,8 +89,9 @@
   <main class="row justify-content-center p-3">
     <!--Presentation of the event-->
     <section class="col-11 col-xl-9">
+      <h1 class="text-center mb-5">Le festival</h1>
       <article class="mb-5">
-        <h1 class="text-center mb-5">Le festival</h1>
+        <hr class="my-5">
         <div class="jumbotron jumbotron-fluid">
           <div class="container-fluid pt-3 pb-5">
             <h1 class="display-4">Festival de la loutre</h1>
@@ -153,18 +154,28 @@
         </div>
       </article>
       <article>
-        <h3 class="mb-3">Venir :</h3>
+        <h3 class="mb-3">Venir au festival :</h3>
         <div class="row align-items-center">
-          <div class="col text-center p-3">
-            <adress class>
+          <div class="col text-center p-3" id="address-block">
+            <address class="mb-5">
               Association Les Amis Des Loutres<br>
               Lieu-dit de Loutre<br>
               49440 Challain-la-Potherie<br>
-              <a href="#">01 23 45 67 89</a><br>
-              <a href="#">contact@ladl.fr</a>
-            </adress>
+            </address>
+            <pre>
+<span class="directions">Depuis Angers : </span>
+   D963 en direction de Candé puis D6
+ou D775 direction Segré puis D923 et D73 
+
+<span class="directions">Depuis Nantes : </span> 
+   A11 direction Ancenis puis D923 direction Candé et D6 
+
+<span class="directions">Depuis Rennes : </span>
+   D94 direction Pouancé puis D6
+
+            </pre>
           </div>
-          <div class="col"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21509.127316018912!2d-1.166669536001973!3d47.633110987647214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4808ba8f6d6ae10d%3A0x9176177498469af4!2sLoutre%2C%2049440%20Challain-la-Potherie!5e0!3m2!1sfr!2sfr!4v1649155235076!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+          <div class="col text-center"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21509.127316018912!2d-1.166669536001973!3d47.633110987647214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4808ba8f6d6ae10d%3A0x9176177498469af4!2sLoutre%2C%2049440%20Challain-la-Potherie!5e0!3m2!1sfr!2sfr!4v1649155235076!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
         </div> 
       </article>
       <hr class="my-5">
@@ -177,17 +188,17 @@
       </article>
     </section>
   </main>
-  <footer class="footer mt-5 container">
-    <div class="row justify-content-around align-items-center">
+  <footer class="footer mt-5 p-5">
+    <div class="row justify-content-around align-items-top">
       <div class="col-12 col-sm-5 col-md-3 my-3">
         <h5>Nous contacter...</h5>
-        <adress class>
+        <address>
           Association Les Amis Des Loutres<br>
           Lieu-dit de Loutre<br>
           49440 Challain-la-Potherie<br>
           <a href="#">01 23 45 67 89</a><br>
           <a href="#">contact@ladl.fr</a>
-        </adress>
+        </address>
       </div>
         <div class="social col-sm-5 col-md-3 my-3">
           <div>
@@ -207,7 +218,7 @@
           </div>
         </div>
   </div>
-  <p class="my-5 text-center"><a href="">Mentions légales</a></p>
+  <p class="mt-5 text-center"><a href="">Mentions légales</a></p>
     
   </footer>
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
