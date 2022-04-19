@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,400;0,500;0,600;0,700;0,900;1,300&family=Righteous&display=swap');
 
+/* -----General----- */
 body {
   font-family: "Libre Franklin", sans-serif;
   font-weight: 400;
@@ -13,7 +14,7 @@ h1, .navbar-brand {
   font-family: "Righteous", cursive;
 }
 
-footer {
+header, footer {
   background-color: #fdf1e3c0;
 }
 
@@ -39,7 +40,9 @@ footer {
   color: black;
 }
 
-/* index.html */
+/* -----end General----- */
+
+/* -----index.html----- */
 
 .circle {
 
@@ -57,16 +60,27 @@ footer {
   transform: translate(-50%, -50%);
 }
 
-/* event.html */
+/* -----end index.html----- */
 
-pre {
-  font-family: "Libre-Fraklin", sans-serif;
+/* -----loutres.html----- */
+
+@media screen and (min-width: 1200px) {
+  .otters-cards > article > div > p {
+    margin-top: 1rem;
+    font-size: calc(1rem + 0.2vw); 
+  }
+
+  .otters-cards > article > div > img {
+    max-height: 40vh;
+  }
+
 }
 
-.directions {
-  line-height: 2;
-  font-weight: 500;
-}
+/* -----end loutre.html----- */
+
+/* -----event.html----- */
+
+/* jumbotron*/
 
 .jumbotron {
   background-image: url("images/L-festival-nuageux.jpg");
@@ -79,9 +93,42 @@ pre {
   backdrop-filter: blur(4px);
 }
 
+/* "Venir au festival" section */
+
+pre {
+  font-family: "Libre-Fraklin", sans-serif;
+}
+
+.directions {
+  line-height: 2;
+  font-weight: 500;
+}
+
 #address-block {
+  background-color: #fdf1e3c0;
+}
+
+#address-block > address {
   font-size: 1.2em;
   font-weight: 500;
   line-height: 1.5;
 }
+
+.google-maps {
+  min-height: 30%;
+}
+
+@media screen and (max-width: 768px) {
+  .google-maps {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+}
+
+
+
+
+
+/* -----end event.html----- */
 
