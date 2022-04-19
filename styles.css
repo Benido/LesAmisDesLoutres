@@ -34,21 +34,8 @@ footer {
   bottom: auto;
 }
 
-.caption-1 > * {
-  background-color: #a98a6b;
-}
-
-.caption-2 > * {
-  background-color: #b1bece;
-}
-
-.caption-3 > * {
-  background-color: #9cc5e4;
-  color: black;
-}
-
-.caption-4 > * {
-  background-color: #d9d9da;
+.carousel-caption > * {
+  backdrop-filter: blur(10px);
   color: black;
 }
 
@@ -89,6 +76,7 @@ pre {
 
 .lead {
   font-weight: 400;
+  backdrop-filter: blur(4px);
 }
 
 #address-block {
