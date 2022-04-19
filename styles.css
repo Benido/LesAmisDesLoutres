@@ -18,6 +18,16 @@ footer {
 }
 
 /* Carousel */
+.carousel-item {
+  max-height: 30vh;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 769px) {
+  .carousel-item {
+    max-height: 50vh;
+  }
+}
 
 .carousel-caption {
   top: 0;
