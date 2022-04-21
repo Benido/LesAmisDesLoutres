@@ -19,6 +19,22 @@ header, footer {
 }
 
 /* Carousel */
+
+
+.carousel-caption {
+  top: 0;
+  bottom: auto;
+}
+
+.carousel-caption > * {
+  display: inline-flex;
+  backdrop-filter: blur(10px);
+  color: black;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+
 .carousel-item {
   max-height: 30vh;
   object-fit: cover;
@@ -30,14 +46,10 @@ header, footer {
   }
 }
 
-.carousel-caption {
-  top: 0;
-  bottom: auto;
-}
-
-.carousel-caption > * {
-  backdrop-filter: blur(10px);
-  color: black;
+.carousel-item > img {
+ object-fit: cover;
+ object-position: center;
+ max-height: 50vh;
 }
 
 /* -----end General----- */
@@ -58,6 +70,14 @@ header, footer {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+#payment-solutions {
+  max-height: 150px;
+}
+
+#payment-solutions > div { 
+  height: 100%;
 }
 
 /* -----end index.html----- */
@@ -85,14 +105,26 @@ header, footer {
 .jumbotron {
   background-image: url("images/L-festival-nuageux.jpg");
   background-size: cover;
+  background-position: left 30%;
   min-height: 30vh;
 }
 
 .lead {
-  font-weight: 400;
+  font-weight: 500;
   backdrop-filter: blur(4px);
 }
 
+@media screen and (max-width: 768px) {
+  #jumbotron-event {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  } 
+
+  #jumbotron-event p {
+    color: white;
+  }
+}
 /* "Venir au festival" section */
 
 pre {
