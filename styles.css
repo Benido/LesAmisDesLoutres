@@ -18,6 +18,10 @@ header, footer {
   background-color: #fdf1e3c0;
 }
 
+footer {
+  max-height: 20rem;
+}
+
 /* Carousel */
 
 
@@ -62,7 +66,12 @@ header, footer {
   padding-top: 100%;
   position: relative;
   border-radius: 50%;
-  background-color: #9cc5e4;
+  background-color: #9cc5e4fd;
+}
+
+.circle:hover {
+  cursor: pointer;
+  background-color: #69b0e6fd;
 }
 
 .circle-content {
